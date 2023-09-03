@@ -1,7 +1,7 @@
 # graduation-ceremony
 repository for graduation ceremony problem
 
-# Running Instructions
+# Instructions for running code
 
 1. Install python3.8
     - `sudo apt-get update`
