@@ -10,11 +10,12 @@ class Ceremony:
         Initializes a ceremony object.
 
         Raises:
-            ValueError: if number of days is less than 1
+            ValueError: if number of days is less than 1.
         """
         if no_of_days < 1:
             raise ValueError("Number of days must be greater than or equal to 1")
         self.no_of_days = no_of_days
+        # Not allowed to miss classes for four or more consecutive days
         self.m = 4
 
     def run(self) -> str:
